@@ -10,11 +10,11 @@ export const Chart = ({ chartData }) => {
       <Bar
         data={chartData}
         options={{
-          title: {
+      plugins:{    title: {
             display: true,
             text: 'Category',
             fontSize: 20,
-          },
+          }},
           legend: {
             display: true,
             position: 'right',
